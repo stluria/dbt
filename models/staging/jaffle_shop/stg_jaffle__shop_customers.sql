@@ -4,6 +4,6 @@
         first_name,
         last_name
 
-    from {{ source('jaffle_shop', 'orders')}}
+    from {{ source('jaffle_shop', 'customers')}}
     /*dbt-tutorial.jaffle_shop.customers*/
 
